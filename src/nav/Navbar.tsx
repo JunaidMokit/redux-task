@@ -7,6 +7,8 @@ export default function Navbar() {
             <nav className='flex'>
                 <Link to={"/user"}>User</Link>
                 <Link to={"/task"}>Task</Link>
+
+                <Link to={"/check"}>Check</Link>
             </nav>
         </div>
     )

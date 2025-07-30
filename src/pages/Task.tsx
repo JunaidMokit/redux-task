@@ -14,6 +14,7 @@ function Task() {
 
             {
                 tasks.map((task) => (
+
                     <TaskCard key={task.id} task={task}></TaskCard>
                 ))
             }
